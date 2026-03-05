@@ -293,3 +293,4 @@ When prompted, paste your Bot Token from BotFather. Optionally provide your chat
 
 ### 📝 This tool is just made for educational purpose only. The main purpose of the tool is to learn about how a malware works. Unethical use of this tool is strongly unacceptable. 
 If somebody is misusing the tool, then only the user will be responsible for any legal actions against them.
+.
