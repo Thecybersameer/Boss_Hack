@@ -1,0 +1,13 @@
+requests
+pyautogui
+opencv-python
+pyperclip
+psutil
+pyttsx3
+sounddevice
+soundfile
+python-telegram-bot==20.3
+nest_asyncio
+cryptography
+numpy
+pynput
