@@ -2,10 +2,11 @@ version: '3.8'
 
 services:
   app:
-    image: nginx:stable-alpine
+    build:
+      context: .
+      dockerfile: dockerfile
     container_name: boss_hack_app
-    ports:
-      - '8080:80'
+    command: python Boss_Hack.py
     volumes:
-      - ./html:/usr/share/nginx/html:ro
+      - .:/app
     restart: unless-stopped
